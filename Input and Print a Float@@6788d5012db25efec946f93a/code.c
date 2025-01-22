@@ -1,3 +1,7 @@
 #include <stdio.h>
-float a;
-printf("%f",a)
+void main(){
+    float a;
+    printf("");
+    scanf("%f",&a;)
+}
+
