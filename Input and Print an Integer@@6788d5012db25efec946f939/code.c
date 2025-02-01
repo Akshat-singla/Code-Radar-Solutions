@@ -3,5 +3,5 @@
 void main(){
     int a;
     scanf("%d",&a);
-    pritnf(" You entered :%d",a);
+    pritnf(" %d You entered:\n",a);
 }
