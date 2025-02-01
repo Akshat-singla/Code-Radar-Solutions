@@ -3,5 +3,5 @@
 void main(){
     int num;
     scanf("%d",&num);
-    pritnf("You entered: %d\n",num);
+    printf("You entered: %d\n",num);
 }
