@@ -5,5 +5,5 @@ void main(){
     if (a<b)
     printf("True");
     else
-    printf("TFalse");
+    printf("False");
 }
