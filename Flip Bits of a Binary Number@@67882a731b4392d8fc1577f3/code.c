@@ -9,12 +9,16 @@ void printBinary(unsigned int n) {
 
 int main() {
     unsigned int num;
+   
+    printf("");
     scanf("%u", &num);
 
+    printf("");
     printBinary(num);
 
     unsigned int flippedNum = ~num;
 
+    printf("Flipped binary:    ");
     printBinary(flippedNum);
 
     return 0;
