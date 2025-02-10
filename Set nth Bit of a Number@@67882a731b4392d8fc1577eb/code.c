@@ -2,6 +2,7 @@
 
 int setNthBit(int num, int n) {
     return num | (1 << n); 
+}
 
 int main() {
     int num, n;
@@ -11,5 +12,4 @@ int main() {
     printf("%d\n", setNthBit(num, n));
 
     return 0;
-}
 }
