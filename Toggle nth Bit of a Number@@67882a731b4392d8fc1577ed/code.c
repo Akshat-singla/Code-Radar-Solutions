@@ -7,5 +7,5 @@ void main(){
     printf("1");
     }
     result=num^(1<<n);
-    printf("%d"result);
+    printf("%d",result);
 }
