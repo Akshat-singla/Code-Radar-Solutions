@@ -1,12 +1,9 @@
 #include <stdio.h>
 int main() {
     int num, count = 0;
-
-    printf("Enter a 32-bit integer: ");
     scanf("%d", &num);
 
     if (num == 0) {
-        printf("Number of leading zeros: 32\n");
         return 0;
     }
 
@@ -16,7 +13,7 @@ int main() {
     if ((num >> 30) == 0) { count += 2; num <<= 2; }
     if ((num >> 31) == 0) { count += 1; }
 
-    printf("Number of leading zeros: %d\n", count);
+    printf(" %d\n", count);
 
     return 0;
 }
