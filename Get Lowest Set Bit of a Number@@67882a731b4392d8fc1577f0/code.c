@@ -1,23 +1,11 @@
 #include <stdio.h>
-    int flsb(int num){
-    if (num==0)
-    printf("-1");
-    int position=0;
-    while((num&1)==0){
-    num=num>1;
-    position++;
-}
-return position;
-}
-
+#include <math.h>
 int main(){
-    int num,position;
+    int num;
     scanf("%d",&num);
-    position=flsb(num);
-    if(position==-1)
+    if (num==0)
     printf("0");
-    else
-    printf("%d",position);
-
-    return 0;
+    else 
+    printf("%d",(int)log2(num & -num));
 }
+
