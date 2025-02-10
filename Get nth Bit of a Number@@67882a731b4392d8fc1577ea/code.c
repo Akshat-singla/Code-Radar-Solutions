@@ -5,5 +5,5 @@ void main(){
     if(n<0||n>31)
     printf("1");
     bit=(num>>n)&1;
-    printf("0");
+    printf("%d",bit);
 }
