@@ -13,7 +13,7 @@ int main() {
     if ((num >> 30) == 0) { count += 2; num <<= 2; }
     if ((num >> 31) == 0) { count += 1; }
 
-    printf(" %d\n", count);
+    printf("%d\n", count);
 
     return 0;
 }
