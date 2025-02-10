@@ -18,5 +18,6 @@ int main(){
     printf("0");
     else
     printf("1");
-    
+
+    return 0;
 }
