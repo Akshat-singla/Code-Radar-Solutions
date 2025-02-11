@@ -6,4 +6,6 @@ void main(){
     printf("%d",a);
     else if (b>a)
     printf("%d",b);
+    else
+    printf("%d",a);
 }
