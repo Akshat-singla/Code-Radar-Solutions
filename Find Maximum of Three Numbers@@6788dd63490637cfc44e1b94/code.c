@@ -4,7 +4,7 @@ void main(){
     scanf("%d %d %d",&a,&b,&c);
     if (a>b)
     {
-        if(a>c);
+        if(a>c)
         printf("%d",a)
     }
     else if (b>c)
