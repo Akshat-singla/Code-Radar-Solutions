@@ -9,6 +9,6 @@ if (ch >= 'A' && ch <= 'Z') {
 } else if (ch >= 'a' && ch <= 'z') {
     printf("Lowercase\n");
 } else {
-    printf("Not an alphabet character\n");
+    printf("Not an alphabet\n");
 }
 }
