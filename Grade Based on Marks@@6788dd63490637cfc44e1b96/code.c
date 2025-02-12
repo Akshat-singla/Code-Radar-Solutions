@@ -12,7 +12,9 @@ void main(){
         grade = 'B';
     } else if (marks >= 70) {
         grade = 'C';
-    } else {
+    } else if (marks<70 && marks>60){
+        grade='D';
+    }else {
         grade = 'F';
     }
 
