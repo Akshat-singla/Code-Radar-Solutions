@@ -2,12 +2,11 @@
 
 int main() {
     int num1, num2;
-
     scanf("%d %d", &num1, &num2);
     if (num1 >= num2) {
-        printf("Yes\n");
+        printf("Eligible\n");
     } else {
-        printf("No\n");
+        printf("Not Eligible\n");
     }
 
     return 0;
