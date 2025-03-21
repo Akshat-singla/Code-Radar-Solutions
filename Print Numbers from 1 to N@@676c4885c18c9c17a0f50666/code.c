@@ -4,8 +4,7 @@ void printNumbers(int N) {
     for (int i = 1; i <= N; i++) {
         printf("%d", i);
         if (i < N) {
-            printf(" "); // Print space except after the last number
-        }
+            printf(""); 
     }
     printf("\n");
 }
